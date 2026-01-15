@@ -8,7 +8,8 @@ class MyHomeworkTests(unittest.TestCase):
 
     def test_two(self):
         print("Running Test Two...")
-        self.assertEqual(1 + 1, 3)
+        self.assertEqual(1 + 1, 2)
 
 if __name__ == '__main__':
+
     unittest.main()
